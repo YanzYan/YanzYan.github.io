@@ -216,7 +216,7 @@ img{display: block;margin: 0 auto;}
     bottom: 8%;
 }
 .slidee .div_need{
-    bottom: 8%;
+    bottom: 0.9rem;
 }
 .slidef .div_need{
     bottom: 8%;
@@ -669,13 +669,10 @@ img{display: block;margin: 0 auto;}
     animation: bounceInDown 1s;
 }
 .slidee .tree{
-    width: 80%;
-    /*margin-top: 3%;*/
-    opacity: 0;
+    width: 5.12rem;
     position: relative;
-    top: 1.6%;
-    /*position: relative;*/
-    /*top: .3rem;*/
+    top: 0.2rem;
+    opacity: 0;
 }
 .slidee .tree_position{
     width: 18%;
@@ -717,38 +714,38 @@ img{display: block;margin: 0 auto;}
 }
 
 .slidee .tree_center_circle{
-    width: 6%;
+    width: .4rem;
     position: absolute;
-    left: 53%;
-    bottom: 16.5%;
+    left: 3.39rem;
+    bottom: 1.87rem;
     opacity: 0;
 }
 .slidee .font_we{
-    width: 16.5%;
+    width: 1.06rem;
     position: absolute;
-    bottom: 16%;
-    left: 33.6%;
+    bottom: 1.82rem;
+    left: 2.15rem;
     opacity: 0;
 }
 .slidee .font_need{
-    width: 16.5%;
+    width: 1.06rem;
     position: absolute;
-    bottom: 16%;
-    right: 21.6%;
+    bottom: 1.82rem;
+    right: 1.37rem;
     opacity: 0;
 }
 .slidee .we_circle{
-    width: 16%;
+    width: 1.03rem;
     position: absolute;
-    left: 14%;
-    bottom: 14.1%;
+    left: .9rem;
+    bottom: 1.6rem;
     opacity: 0;
 }
 .slidee .need_circle{
-    width: 10%;
+    width: 0.65rem;
     position: absolute;
-    right: 8.6%;
-    bottom: 15.2%;
+    right: .55rem;
+    bottom: 1.74rem;
     opacity: 0;
 }
 .slide-active .we_circle,.slide-active .need_circle{
