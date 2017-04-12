@@ -124,26 +124,26 @@ img{display: block;margin: 0 auto;}
 .slidea .wrap_div{
     position: absolute;
     width: 100%;
-    margin-top: .8rem;
+    margin-top: 0.74rem;
     top: -2.49%;
 }
 .slidea .wrap_circle1{
-    width: 86%;
+    width: 78%;
     position: relative;
     opacity: 0;
 }
 .slidea .wrap_circle2{
-    width: 86%;
+    width: 78%;
     position: absolute;
-    top: 0.3%;
-    left: 7%;
+    top: 0.2%;
+    left: 10.8%;
     opacity: 0;
 }
 .slidea .wrap_circle3{
-    width: 86%;
+    width: 78%;
     position: absolute;
-    top: 0.3%;
-    left: 7%;
+    top: 0.2%;
+    left: 10.8%;
     opacity: 0;
 }
 .slidea .rotate1{
@@ -174,17 +174,17 @@ img{display: block;margin: 0 auto;}
     opacity: 0;
 }
 .slidea .big_circle2{
-    width: 80%;
+    width: 72%;
     position: absolute;
     top: 6.3%;
     left: 10%;
     opacity: 0;
 }
 .slidea .recruit{
-    width: 52%;
+    width: 46%;
     position: absolute;
-    top: 14.2%;
-    left: 24.4%;
+    top: 13.2%;
+    left: 26.8%;
     opacity: 0;
 }
 .slidea .border{
@@ -363,7 +363,7 @@ img{display: block;margin: 0 auto;}
     width: 6%;
     position: absolute;
     right: 19.4%;
-    top: 18.2%;
+    top: 19%;
     opacity: 0;
 }
 .slide-active .arrow_left1{
@@ -590,35 +590,35 @@ img{display: block;margin: 0 auto;}
 .slided .content1{
     width: 55%;
     position: absolute;
-    top: 37%;
+    top: 38%;
     left: 26%;
     opacity: 0;
 }
 .slided .content2{
     width: 65%;
     position: absolute;
-    top: 43%;
+    top: 44%;
     left: 26%;
     opacity: 0;
 }
 .slided .content3{
     width: 65%;
     position: absolute;
-    top: 49%;
+    top: 50%;
     left: 26%;
     opacity: 0;
 }
 .slided .content4{
     width: 55%;
     position: absolute;
-    top: 55%;
+    top: 56%;
     left: 26%;
     opacity: 0;
 }
 .slided .content5{
     width: 45%;
     position: absolute;
-    top: 61%;
+    top: 62%;
     left: 26%;
     opacity: 0;
 }
@@ -996,21 +996,21 @@ img{display: block;margin: 0 auto;}
 /*我要应聘页面*/
 .slideg .title_border{
     width: 55%;
-    margin-top: 14%;
+    margin-top: 12%;
     opacity: 0;
 }
 .slideg .arrow_left2{
     width: 13%;
     position: absolute;
     left: 15.5%;
-    top: 5%;
+    top: 3.5%;
     opacity: 0;
 }
 .slideg .arrow_right2{
     width: 13%;
     position: absolute;
     right: 16%;
-    top: 13.5%;
+    top: 12%;
     opacity: 0;
 }
 .slideg .interview_div{
@@ -1048,7 +1048,7 @@ img{display: block;margin: 0 auto;}
 .slideg .title3{
 	width: 37%;
     position: absolute;
-    top: 10.2%;
+    top: 8.75%;
     left: 31.2%;
     opacity: 0;
 }
