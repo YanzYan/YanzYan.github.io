@@ -678,12 +678,14 @@ img{display: block;margin: 0 auto;}
     opacity: 0;
     position: relative;
     top: 1.6%;
+    z-index: 1;
     /*position: relative;*/
     /*top: .3rem;*/
 }
 .slidee .tree_position{
     width: 18%;
     position: absolute;
+    z-index: 2;
     opacity: 0;
 }
 .slidee .tree_position1{
