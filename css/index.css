@@ -1,0 +1,1099 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,ul,li,dl,dt,dd,p,h2,h3,input,textarea,figure{ margin:0; padding:0; font-family:"Helvetica"; list-style:none;}
+html{ height:100%;}
+body{ height:100%; font-size:0.24rem; -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-user-select:none;}
+img{ width:100%; border:none; vertical-align:top;}
+a{ text-decoration:none; blr:expression(this.onFocus=this.blur());}
+input{ font-size:0.24rem; border:0; -webkit-appearance:none; display:block;}
+:focus{ outline:0;}
+.clear{ clear:both;}
+li{list-style: none;}
+/* 总样式 */
+section,aside{ width:100%; height:100%; position:relative; overflow:hidden;text-align: center;
+    background: url(../img/01.png) 0 0 no-repeat;-webkit-background-size: 100% 100%;background-size: 100% 100%;}
+.arrow{ width:8%; animation:uppage 1.5s infinite linear; -webkit-animation:uppage 1.5s infinite linear; position:absolute; left:46%; bottom:0px;}
+/*背景*/
+.bg_circles1{
+    width: 43%;
+    position: absolute;
+    right: 0;
+}
+.bg_circles2{
+    width: 24%;
+    position: absolute;
+    left: 2%;
+}
+.bg_circle3{
+    width: 26%;
+    position: absolute;
+    bottom: 26%;
+    left: -1%;
+}
+.bg_circle4{
+    width: 33%;
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+}
+.rain{
+    position: absolute;
+    top: 5%;
+    /*opacity: 0;*/
+}
+.slide-active .bg_circles1{
+    -webkit-animation: rotateInDownRight 1s;
+    animation: rotateInDownRight 1s;
+}
+.slide-active .bg_circles2{
+    -webkit-animation: rotateInDownLeft 1s;
+    animation: rotateInDownLeft 1s;
+}
+.slide-active .bg_circle3{
+    -webkit-animation: rotateInUpLeft 1s;
+    animation: rotateInUpLeft 1s;
+}
+.slide-active .bg_circle4{
+    -webkit-animation: rotateInUpRight 1s;
+    animation: rotateInUpRight 1s;
+}
+.slide-active .rain{
+    -webkit-animation: bounceInDown 1s .6s both;
+    animation: bounceInDown 1s .6s both;
+}
+/*we need you*/
+.div_need{
+    position: absolute;
+}
+.div_need .line1{
+    width: 25%;
+    height: 12%;
+    position: absolute;
+    bottom: 46.2%;
+    opacity: 0;
+}
+.div_need .line2{
+    width: 25%;
+    height: 12%;
+    position: absolute;
+    bottom: 46.2%;
+    right: 0;
+    opacity: 0;
+}
+.div_need .point{
+    width: 43%;
+    position: absolute;
+    top: 37.5%;
+    left: 28.8%;
+    opacity: 0;
+}
+.div_need .need{
+    width: 36%;
+    position: absolute;
+    top: 26.2%;
+    opacity: 0;
+    left: 32.3%;
+}
+
+.slide-active .bg{
+    -webkit-animation: fadeInUp 1s 1.2s both;
+    animation:fadeInUp 1s 1.2s both;
+}
+.slide-active .line1{
+    -webkit-animation: fadeInLeftBig 1.2s 1.6s both;
+    animation: fadeInLeftBig 1.2s 1.6s both;
+}
+.slide-active .line2{
+    -webkit-animation: fadeInRightBig 1.2s 1.6s both;
+    animation: fadeInRightBig 1.2s 1.6s both;
+}
+.slide-active .point{
+    -webkit-animation: bounceIn .6s 2.6s both;
+    animation: bounceIn .6s 2.6s both;
+}
+.slide-active .need{
+    -webkit-animation: bounceIn1 1.2s 3.2s both;
+    animation: bounceIn1 1.2s 3.2s both;
+}
+
+img{display: block;margin: 0 auto;}
+
+/*页面一*/
+.slidea .wrap_div{
+    position: absolute;
+    width: 100%;
+    margin-top: .8rem;
+    top: -2.49%;
+}
+.slidea .wrap_circle1{
+    width: 86%;
+    position: relative;
+    opacity: 0;
+}
+.slidea .wrap_circle2{
+    width: 86%;
+    position: absolute;
+    top: 0.3%;
+    left: 7%;
+    opacity: 0;
+}
+.slidea .wrap_circle3{
+    width: 86%;
+    position: absolute;
+    top: 0.3%;
+    left: 7%;
+    opacity: 0;
+}
+.slidea .rotate1{
+    width: 5%;
+    position: absolute;
+    right: 9%;
+    top: 70%;
+    opacity: 0;
+}
+.slidea .rotate2{
+    width: 3%;
+    position: absolute;
+    left: 6%;
+    top: 40%;
+    opacity: 0;
+}
+.slidea .rotate3{
+    width: 2.6%;
+    position: absolute;
+    left: 38%;
+    top: 0;
+    opacity: 0;
+}
+.slidea .big_circle1{
+    width: 80%;
+    position: relative;
+    top: 6.3%;
+    opacity: 0;
+}
+.slidea .big_circle2{
+    width: 80%;
+    position: absolute;
+    top: 6.3%;
+    left: 10%;
+    opacity: 0;
+}
+.slidea .recruit{
+    width: 52%;
+    position: absolute;
+    top: 14.2%;
+    left: 24.4%;
+    opacity: 0;
+}
+.slidea .border{
+    width: 64%;
+    position: relative;
+    top: 13%;
+    opacity: 0;
+}
+.slidea .logo{
+    width: 27%;
+    position: relative;
+    top: -3.8%;
+    opacity: 0;
+}
+.slidea .logo_font{
+    width: 54%;
+    position: relative;
+    top: -2%;
+    opacity: 0;
+}
+.slidea .div_need{
+    bottom: 12%;
+}
+.slideb .div_need{
+    bottom: 12%;
+}
+.slidec .div_need{
+    bottom: 7%;
+}
+.slided .div_need{
+    bottom: 8%;
+}
+.slidee .div_need{
+    bottom: 8%;
+}
+.slidef .div_need{
+    bottom: 8%;
+}
+.slideg .div_need{
+    bottom: 8%;
+}
+.slide-active .big_circle1{
+    -webkit-animation: bounceInLeft 1.5s 3.8s both;
+    -moz-animation: bounceInLeft 1.5s 3.8s both;
+    -o-animation: bounceInLeft 1.5s 3.8s both;
+    animation: bounceInLeft 1.5s 3.8s both;
+}
+.slide-active .big_circle2{
+    -webkit-animation: bounceInRight 1.5s 3.8s;
+    -moz-animation: bounceInRight 1.5s 3.8s;
+    -o-animation: bounceInRight 1.5s 3.8s;
+    animation: bounceInRight 1.5s 3.8s;
+}
+.slide-active .recruit{
+    -webkit-animation: rollIn 1.2s 4.8s both;
+    -moz-animation: rollIn 1.2s 4.8s both;
+    -o-animation: rollIn 1.2s 4.8s both;
+    animation: rollIn 1.2s 4.8s both;
+}
+.slide-active .logo{
+    -webkit-animation: bounceIn 1.2s 6s both;
+    -moz-animation: bounceIn 1.2s 6s both;
+    -o-animation: bounceIn 1.2s 6s both;
+    animation: bounceIn 1.2s 6s both;
+}
+.slide-active .logo_font{
+    -webkit-animation: rubberBand 1.2s 6.4s both;
+    -moz-animation: rubberBand 1.2s 6.4s both;
+    -o-animation: rubberBand 1.2s 6.4s both;
+    animation: rubberBand 1.2s 6.4s both;
+}
+.slide-active .border{
+    -webkit-animation: bounceIn 1s 6.8s both;
+    -moz-animation: bounceIn 1s 6.8s both;
+    -o-animation: bounceIn 1s 6.8s both;
+    animation: bounceIn 1s 6.8s both;
+}
+/*方式一*/
+.slide-active .wrap_circle1{
+    -webkit-animation: pulse 0.8s 7s both;
+    -moz-animation: pulse 0.8s 7s both;
+    -o-animation: pulse 0.8s 7s both;
+    animation: pulse 0.8s 7s both;
+}
+.slide-active .wrap_circle2{
+    -webkit-animation: pulse 0.8s 7.2s;
+    -moz-animation: pulse 0.8s 7.2s;
+    -o-animation: pulse 0.8s 7.2s;
+    animation: pulse 0.8s 7.2s;
+}
+.slide-active .wrap_circle3{
+    -webkit-animation: pulse .8s 7.4s;
+    -moz-animation: pulse .8s 7.4s;
+    -o-animation: pulse .8s 7.4s;
+    animation: pulse .8s 7.4s;
+}
+.slide-active .rotate2,.slide-active .rotate3{
+    -webkit-animation: rotateInDownLeft .6s 8.3s both;
+    -moz-animation: rotateInDownLeft .6s 8.3s both;
+    -o-animation: rotateInDownLeft .6s 8.3s both;
+    animation: rotateInDownLeft .6s 8.3s both;
+}
+.slide-active .rotate1{
+    -webkit-animation: rotateInDownRight .6s 8.3s both;
+    -moz-animation: rotateInDownRight .6s 8.3s both;
+    -o-animation: rotateInDownRight .6s 8.3s both;
+    animation: rotateInDownRight .6s 8.3s both;
+}
+
+/*方式二*/
+/*.slide-active .wrap_circle1{*/
+    /*-webkit-animation:pulse 0.8s 7.8s both;*/
+/*}*/
+/*.slide-active .wrap_circle2{*/
+    /*-webkit-animation:pulse 0.8s 8.2s;*/
+/*}*/
+/*.slide-active .wrap_circle3{*/
+    /*-webkit-animation:pulse 0.8s 8.6s;*/
+/*}*/
+/*.slide-active .rotate2,.slide-active .rotate3{*/
+    /*animation:rotateInDownLeft 1s 7s both;*/
+/*}*/
+/*.slide-active .rotate1{*/
+    /*animation:rotateInDownRight 1s 7s both;*/
+/*}*/
+
+.slide-active .wrap_div{
+    -webkit-animation: circle 5s 8.8s ease-in-out both;
+    -moz-animation: circle 5s 8.8s ease-in-out both;
+    -o-animation: circle 5s 8.8s ease-in-out both;
+    animation: circle 5s 8.8s ease-in-out both;
+}
+
+
+/*页面2*/
+.slideb .company_border{
+    position: absolute;
+    left: 23%;
+    width: 54%;
+    opacity: 0;
+    top: 11.4%;
+}
+.slide-active .company_border1{
+    -webkit-animation: bounceInLeft 1.5s 3.8s both;
+    -moz-animation: bounceInLeft 1.5s 3.8s both;
+    -o-animation: bounceInLeft 1.5s 3.8s both;
+    animation:bounceInLeft 1.5s 3.8s both;
+}
+.slide-active .company_border2{
+    -webkit-animation: bounceInRight 1.5s 3.8s;
+    -moz-animation: bounceInRight 1.5s 3.8s;
+    -o-animation: bounceInRight 1.5s 3.8s;
+    animation: bounceInRight 1.5s 3.8s;
+}
+.slideb .company_font{
+    width: 38%;
+    position: absolute;
+    top: 13%;
+    left: 30.1%;
+    opacity: 0;
+}
+.slide-active .company_font{
+    -webkit-animation: rollIn 1.2s 4.6s both;
+    -moz-animation: rollIn 1.2s 4.6s both;
+    -o-animation: rollIn 1.2s 4.6s both;
+    animation: rollIn 1.2s 4.6s both;
+}
+.slideb .arrow_left1{
+    width: 10%;
+    position: absolute;
+    top: 8%;
+    left: 16.5%;
+    opacity: 0;
+}
+.slideb .arrow_right1{
+    width: 6%;
+    position: absolute;
+    right: 19.4%;
+    top: 18.2%;
+    opacity: 0;
+}
+.slide-active .arrow_left1{
+    -webkit-animation: rotateInDownLeft 1s 5.6s both;
+    -moz-animation: rotateInDownLeft 1s 5.6s both;
+    -o-animation: rotateInDownLeft 1s 5.6s both;
+    animation: rotateInDownLeft 1s 5.6s both;
+}
+.slide-active .arrow_right1{
+    -webkit-animation: rotateInUpRight 1s 5.6s both;
+    -moz-animation: rotateInUpRight 1s 5.6s both;
+    -o-animation: rotateInUpRight 1s 5.6s both;
+    animation: rotateInUpRight 1s 5.6s both;
+}
+.slideb .pack_left{
+    width: 6.24%;
+    position: absolute;
+    left: 4.5%;
+    top: 27.1%;
+    opacity: 0;
+}
+.slideb .pack_right{
+    width: 6.24%;
+    position: absolute;
+    right: 4.5%;
+    top: 27.1%;
+    opacity: 0;
+}
+.slideb .content{
+    position: absolute;
+    opacity: 0;
+    top: 27.7%;
+}
+.slide-active .pack_left{
+    -webkit-animation: bounceInRight1 1.9s 5.8s both;
+    -moz-animation: bounceInRight1 1.9s 5.8s both;
+    -o-animation: bounceInRight1 1.9s 5.8s both;
+    animation: bounceInRight1 1.9s 5.8s both;
+}
+.slide-active .pack_right{
+    -webkit-animation: bounceInLeft1 1.9s 5.8s both;
+    -moz-animation: bounceInLeft1 1.9s 5.8s both;
+    -o-animation: bounceInLeft1 1.9s 5.8s both;
+    animation: bounceInLeft1 1.9s 5.8s both;
+}
+.slide-active .content{
+	-webkit-animation: scaleY1 1.12s 6.34s both;
+    -moz-animation: scaleY1 1.12s 6.34s both;
+    -o-animation: scaleY1 1.12s 6.34s both;
+    animation: scaleY1 1.12s 6.34s both;
+}
+
+
+/*页面3*/
+.slidec .bg_circle1{
+    width: 39%;
+    position: absolute;
+    left: 0;
+    top: 5%;
+    opacity: 0;
+}
+.slidec .bg_circle2{
+    width: 31%;
+    position: absolute;
+    top: 7.3%;
+    left: 3.9%;
+    opacity: 0;
+}
+.slidec .title2{
+    width: 20%;
+    position: absolute;
+    top: 10.2%;
+    left: 9.6%;
+    opacity: 0;
+}
+.slidec .content_desc{
+    width: 57%;
+    position: absolute;
+    right: 1.7%;
+    top: 10.8%;
+    opacity: 0;
+}
+.slidec .bank{
+    position: absolute;
+    width: 46%;
+    opacity: 0;
+}
+.slidec .banka{
+    left: 2.6%;
+}
+.slidec .bankb{
+    right: 2.6%;
+}
+.slidec .bank1{
+    top: 35%;
+}
+.slidec .bank2{
+    top: 39%;
+}
+.slidec .bank3{
+    top: 43%;
+}
+.slidec .bank4{
+    top: 47%;
+}
+.slidec .bank5{
+    top: 51%;
+}
+.slidec .bank6{
+    top: 55%;
+}
+.slidec .bank7{
+    top: 59%;
+}
+.slidec .bank8{
+    top: 63%;
+}
+.slidec .bank9{
+    top: 67%;
+}
+.slidec .bank10{
+    top: 71%;
+}
+.slidec .bank11{
+    top: 75%;
+}
+.slidec .bank12{
+    top: 79%;
+}
+.slide-active .bg_circle1{
+    -webkit-animation: bounceIn 1.6s 4.2s both;
+    -moz-animation: bounceIn 1.6s 4.2s both;
+    -o-animation: bounceIn 1.6s 4.2s both;
+    animation: bounceIn 1.6s 4.2s both;
+}
+.slide-active .bg_circle2{
+    -webkit-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation: scaleX .8s 3.6s both;
+    -moz-animation: scaleX .8s 3.6s both;
+    -o-animation: scaleX .8s 3.6s both;
+    animation: scaleX .8s 3.6s both;
+}
+.slide-active .title2{
+    -webkit-animation: bounceIn 1s 3.8s both;
+    -moz-animation: bounceIn 1s 3.8s both;
+    -o-animation: bounceIn 1s 3.8s both;
+    animation: bounceIn 1s 3.8s both;
+}
+.slide-active .content_desc{
+    -webkit-animation: bounceInLeft 1.2s 4.5s both;
+    -moz-animation: bounceInLeft 1.2s 4.5s both;
+    -o-animation: bounceInLeft 1.2s 4.5s both;
+    animation: bounceInLeft 1.2s 4.5s both;
+}
+.slide-active .bank1,.slide-active .bank4,.slide-active .bank5,.slide-active .bank8,.slide-active .bank9,.slide-active .bank12{
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-animation: scaleY 1s 5.4s both;
+    -moz-animation: scaleY 1s 5.4s both;
+    -o-animation: scaleY 1s 5.4s both;
+    animation: scaleY 1s 5.4s both;
+}
+.slide-active .bank2,.slide-active .bank3,.slide-active .bank6,.slide-active .bank7,.slide-active .bank10,.slide-active .bank11{
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -o-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-animation: scaleY 1s 5.4s both;
+    -moz-animation: scaleY 1s 5.4s both;
+    -o-animation: scaleY 1s 5.4s both;
+    animation: scaleY 1s 5.4s both;
+}
+
+/*页面4*/
+.slided .title{
+    width: 37%;
+    margin-top: 18%;
+    opacity: 0;
+}
+.slided .arrow_left2{
+    width: 9%;
+    position: absolute;
+    top: 6%;
+    left: 18%;
+    opacity: 0;
+}
+.slided .arrow_right2{
+    width: 9%;
+    position: absolute;
+    top: 14%;
+    right: 18%;
+    opacity: 0;
+}
+.slide-active .title{
+    -webkit-animation: bounceInLeft .8s 3.8s both;
+    -moz-animation: bounceInLeft .8s 3.8s both;
+    -o-animation: bounceInLeft .8s 3.8s both;
+    animation: bounceInLeft .8s 3.8s both;
+}
+.slide-active .arrow_left2{
+    -webkit-animation: rotateInDownLeft 1.1s 4s both;
+    -moz-animation: rotateInDownLeft 1.1s 4s both;
+    -o-animation: rotateInDownLeft 1.1s 4s both;
+    animation: rotateInDownLeft 1.1s 4s both;
+}
+.slide-active .arrow_right2{
+    -webkit-animation: rotateInUpRight 1.1s 4s both;
+    -moz-animation: rotateInUpRight 1.1s 4s both;
+    -o-animation: rotateInUpRight 1.1s 4s both;
+    animation: rotateInUpRight 1.1s 4s both;
+}
+.slided .border_content{
+    position: relative;
+    width: 94%;
+    top: 3%;
+    opacity: 0;
+}
+.slided .content1{
+    width: 55%;
+    position: absolute;
+    top: 36%;
+    left: 26%;
+    opacity: 0;
+}
+.slided .content2{
+    width: 65%;
+    position: absolute;
+    top: 42%;
+    left: 26%;
+    opacity: 0;
+}
+.slided .content3{
+    width: 65%;
+    position: absolute;
+    top: 48%;
+    left: 26%;
+    opacity: 0;
+}
+.slided .content4{
+    width: 55%;
+    position: absolute;
+    top: 54%;
+    left: 26%;
+    opacity: 0;
+}
+.slided .content5{
+    width: 45%;
+    position: absolute;
+    top: 60%;
+    left: 26%;
+    opacity: 0;
+}
+
+.slide-active .border_content{
+    -webkit-animation: flipInY 1s 4.4s both;
+    -moz-animation: flipInY 1s 4.4s both;
+    -o-animation: flipInY 1s 4.4s both;
+    animation: flipInY 1s 4.4s both;
+}
+.slide-active .content1{
+    -webkit-animation: rotateInDownLeft 1s 5s both;
+    -moz-animation: rotateInDownLeft 1s 5s both;
+    -o-animation: rotateInDownLeft 1s 5s both;
+    animation: rotateInDownLeft 1s 5s both;
+}
+.slide-active .content2{
+    -webkit-animation: rotateInDownLeft 1s 5.5s both;
+    -moz-animation: rotateInDownLeft 1s 5.5s both;
+    -o-animation: rotateInDownLeft 1s 5.5s both;
+    animation:rotateInDownLeft 1s 5.5s both;
+}
+.slide-active .content3{
+    -webkit-animation: rotateInDownLeft 1s 6s both;
+    -moz-animation: rotateInDownLeft 1s 6s both;
+    -o-animation: rotateInDownLeft 1s 6s both;
+    animation: rotateInDownLeft 1s 6s both;
+}
+.slide-active .content4{
+    -webkit-animation: rotateInDownLeft 1s 6.5s both;
+    -moz-animation: rotateInDownLeft 1s 6.5s both;
+    -o-animation: rotateInDownLeft 1s 6.5s both;
+    animation: rotateInDownLeft 1s 6.5s both;
+}
+.slide-active .content5{
+    -webkit-animation: rotateInDownLeft 1s 7s both;
+    -moz-animation: rotateInDownLeft 1s 7s both;
+    -o-animation: rotateInDownLeft 1s 7s both;
+    animation: rotateInDownLeft 1s 7s both;
+}
+
+/*页面五*/
+.slidee .rain1{
+    position: absolute;
+    top: 5%;
+}
+.slide-active .rain1{
+    -webkit-animation: bounceInDown 1s;
+    -moz-animation: bounceInDown 1s;
+    -o-animation: bounceInDown 1s;
+    animation: bounceInDown 1s;
+}
+.slidee .tree{
+    width: 80%;
+    /*margin-top: 3%;*/
+    opacity: 0;
+    position: relative;
+    top: 1.6%;
+    /*position: relative;*/
+    /*top: .3rem;*/
+}
+.slidee .tree_position{
+    width: 18%;
+    position: absolute;
+    opacity: 0;
+}
+.slidee .tree_position1{
+    top: 10.4%;
+    left: 24.9%;
+}
+.slidee .tree_position2{
+    top: 12.5%;
+    right: 21.6%;
+}
+.slidee .tree_position3{
+    top: 26.4%;
+    left: 33.6%;
+}
+.slidee .tree_position4{
+    top: 27.6%;
+    right: 14.6%;
+}
+.slidee .tree_position5{
+    top: 41.8%;
+    left: 16.5%;
+}
+.slidee .tree_position6{
+    top: 47.5%;
+    right: 20.6%;
+}
+.slidee .tree_position7{
+    top: 60.69%;
+    left: 25.8%;
+}
+.slidee .tree_position8{
+	top: 2.6%;
+    right: 34.8%;
+    width: 11%;
+}
+
+.slidee .tree_center_circle{
+    width: 6%;
+    position: absolute;
+    left: 53%;
+    bottom: 16.5%;
+    opacity: 0;
+}
+.slidee .font_we{
+    width: 16.5%;
+    position: absolute;
+    bottom: 16%;
+    left: 33.6%;
+    opacity: 0;
+}
+.slidee .font_need{
+    width: 16.5%;
+    position: absolute;
+    bottom: 16%;
+    right: 21.6%;
+    opacity: 0;
+}
+.slidee .we_circle{
+    width: 16%;
+    position: absolute;
+    left: 14%;
+    bottom: 14.1%;
+    opacity: 0;
+}
+.slidee .need_circle{
+    width: 10%;
+    position: absolute;
+    right: 8.6%;
+    bottom: 15.2%;
+    opacity: 0;
+}
+.slide-active .we_circle,.slide-active .need_circle{
+    -webkit-animation: zoomInUp 1.2s 3.6s both;
+    -moz-animation: zoomInUp 1.2s 3.6s both;
+    -o-animation: zoomInUp 1.2s 3.6s both;
+    animation:zoomInUp 1.2s 3.6s both;
+}
+.slide-active .font_we{
+    -webkit-animation: slideInLeft 1s 4.6s both;
+    -moz-animation: slideInLeft 1s 4.6s both;
+    -o-animation: slideInLeft 1s 4.6s both;
+    animation: slideInLeft 1s 4.6s both;
+}
+.slide-active .font_need{
+    -webkit-animation: slideInRight 1s 4.6s both;
+    -moz-animation: slideInRight 1s 4.6s both;
+    -o-animation: slideInRight 1s 4.6s both;
+    animation: slideInRight 1s 4.6s both;
+}
+.slide-active .tree_center_circle{
+    -webkit-animation: bounceIn .8s 5.1s both;
+    -moz-animation: bounceIn .8s 5.1s both;
+    -o-animation: bounceIn .8s 5.1s both;
+    animation: bounceIn .8s 5.1s both;
+}
+.slide-active .tree{
+	-webkit-transform-origin: center bottom;
+    -moz-transform-origin: center bottom;
+    -o-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation: scaleX 1.4s 5.3s both;
+    -moz-animation: scaleX 1.4s 5.3s both;
+    -o-animation: scaleX 1.4s 5.3s both;
+    animation: scaleX 1.4s 5.3s both;
+}
+.slide-active .tree_position1{
+    -webkit-animation: rotateInDownLeft .8s 7.5s both;
+    -moz-animation: rotateInDownLeft .8s 7.5s both;
+    -o-animation: rotateInDownLeft .8s 7.5s both;
+    animation: rotateInDownLeft .8s 7.5s both;
+}
+.slide-active .tree_position2{
+    -webkit-animation: rotateInDownRight .8s 7.3s both;
+    -moz-animation: rotateInDownRight .8s 7.3s both;
+    -o-animation: rotateInDownRight .8s 7.3s both;
+    animation: rotateInDownRight .8s 7.3s both;
+}
+.slide-active .tree_position3{
+    -webkit-animation: rotateInDownLeft .8s 7.1s both;
+    -moz-animation: rotateInDownLeft .8s 7.1s both;
+    -o-animation: rotateInDownLeft .8s 7.1s both;
+    animation: rotateInDownLeft .8s 7.1s both;
+}
+.slide-active .tree_position4{
+    -webkit-animation: rotateInDownRight .8s 6.9s both;
+    -moz-animation: rotateInDownRight .8s 6.9s both;
+    -o-animation: rotateInDownRight .8s 6.9s both;
+    animation: rotateInDownRight .8s 6.9s both;
+}
+.slide-active .tree_position5{
+	-webkit-animation: rotateInDownLeft .8s 6.7s both;
+    animation: rotateInDownLeft .8s 6.7s both;
+}
+.slide-active .tree_position6{
+    -webkit-animation: rotateInDownRight .8s 6.5s both;
+    -moz-animation: rotateInDownRight .8s 6.5s both;
+    -o-animation: rotateInDownRight .8s 6.5s both;
+    animation:rotateInDownRight .8s 6.5s both;
+}
+.slide-active .tree_position7{
+    -webkit-animation: rotateInDownLeft .8s 6.3s both;
+    -moz-animation: rotateInDownLeft .8s 6.3s both;
+    -o-animation: rotateInDownLeft .8s 6.3s both;
+    animation: rotateInDownLeft .8s 6.3s both;
+}
+.slide-active .tree_position8{
+    -webkit-animation: rotateInDownRight .8s 7.7s both;
+    -moz-animation: rotateInDownRight .8s 7.7s both;
+    -o-animation: rotateInDownRight .8s 7.7s both;
+    animation: rotateInDownRight .8s 7.7s both;
+}
+/*页面六*/
+.slidef .bg_circle4{
+    width: 76%;
+    position: absolute;
+    right: -11%;
+    bottom: -4%;
+}
+.slidef .title_left_circle{
+    width: 24%;
+    position: absolute;
+    top: 4%;
+    opacity: 0;
+}
+.slidef .title_right_circle{
+    width: 28%;
+    position: absolute;
+    right: 0%;
+    top: 6%;
+    opacity: 0;
+}
+.slidef .title_bg1{
+    position: relative;
+    width: 40%;
+    margin-top: 3%;
+    opacity: 0;
+}
+.slidef .title_bg2{
+    width: 32%;
+    position: absolute;
+    top: 3.8%;
+    right: 30.1%;
+    opacity: 0;
+}
+.slidef .title1{
+    width: 29%;
+    position: absolute;
+    top: 9%;
+    left: 39.5%;
+    opacity: 0;
+}
+.slidef .duty_content{
+    width: 77%;
+    position: relative;
+    left: -13.8%;
+    top: 1.8%;
+    opacity: 0;
+}
+.slidef .duty_title_circle1{
+    width: 6.3%;
+    position: absolute;
+    right: 13.4%;
+    top: 26.8%;
+    opacity: 0;
+}
+.slidef .duty_title_circle2{
+    width: 6.3%;
+    position: absolute;
+    right: 13.4%;
+    top: 48.7%;
+    opacity: 0;
+}
+.slidef .duty_title{
+    width: 6%;
+    position: absolute;
+    right: 13.5%;
+    top: 32.1%;
+    opacity: 0;
+}
+.slidef .require_title_circle1{
+    width: 6.3%;
+    position: absolute;
+    left: 13%;
+    bottom: 40%;
+    opacity: 0;
+}
+.slidef .require_title_circle2{
+    width: 6.3%;
+    position: absolute;
+    bottom: 18%;
+    left: 13%;
+    opacity: 0;
+}
+.slidef .require_title{
+    width: 6%;
+    position: absolute;
+    left: 13%;
+    bottom: 23%;
+    opacity: 0;
+}
+.slidef .require_content{
+    width: 77%;
+    position: relative;
+    right: -12.8%;
+    top: 4%;
+    opacity: 0;
+}
+.slide-active .title_left_circle{
+    -webkit-animation: zoomIn1 1s 3.6s both;
+    -moz-animation: zoomIn1 1s 3.6s both;
+    -o-animation: zoomIn1 1s 3.6s both;
+    animation: zoomIn1 1s 3.6s both;
+}
+.slide-active .title_right_circle{
+    -webkit-animation: zoomIn2 1s 3.6s both;
+    -moz-animation: zoomIn2 1s 3.6s both;
+    -o-animation: zoomIn2 1s 3.6s both;
+    animation: zoomIn2 1s 3.6s both;
+}
+.slide-active .title_bg1,.slide-active .title_bg2{
+    -webkit-animation: zoomIn 1s 4s both;
+    -moz-animation: zoomIn 1s 4s both;
+    -o-animation: zoomIn 1s 4s both;
+    animation: zoomIn 1s 4s both;
+}
+.slide-active .title1{
+    -webkit-animation: rollIn 1.4s 4.4s both;
+    -moz-animation: rollIn 1.4s 4.4s both;
+    -o-animation: rollIn 1.4s 4.4s both;
+    animation: rollIn 1.4s 4.4s both;
+}
+.slide-active .duty_content{
+    -webkit-animation: zoomInLeft 1s 5.2s both;
+    -moz-animation: zoomInLeft 1s 5.2s both;
+    -o-animation: zoomInLeft 1s 5.2s both;
+    animation: zoomInLeft 1s 5.2s both;
+}
+.slide-active .duty_title_circle1,.slide-active .duty_title_circle2{
+    -webkit-animation: fadeInRight .5s 6.2s both;
+    -moz-animation: fadeInRight .5s 6.2s both;
+    -o-animation: fadeInRight .5s 6.2s both;
+    animation: fadeInRight .5s 6.2s both;
+}
+.slide-active .duty_title{
+    -webkit-animation: circle1 1s 6.2s both;
+    -moz-animation: circle1 1s 6.2s both;
+    -o-animation: circle1 1s 6.2s both;
+    animation: circle1 1s 6.2s both;
+}
+.slide-active .require_content{
+    -webkit-animation: zoomInLeft 1s 6.6s both;
+    -moz-animation: zoomInLeft 1s 6.6s both;
+    -o-animation: zoomInLeft 1s 6.6s both;
+    animation: zoomInLeft 1s 6.6s both;
+}
+.slide-active .require_title_circle1,.slide-active .require_title_circle2{
+    -webkit-animation: fadeInLeft .5s 7.6s both;
+    -moz-animation: fadeInLeft .5s 7.6s both;
+    -o-animation: fadeInLeft .5s 7.6s both;
+    animation: fadeInLeft .5s 7.6s both;
+}
+.slide-active .require_title{
+    -webkit-animation: circle2 1s 7.6s both;
+    -moz-animation: circle2 1s 7.6s both;
+    -o-animation: circle2 1s 7.6s both;
+    animation: circle2 1s 7.6s both;
+}
+
+/*我要应聘页面*/
+.slideg .title_border{
+    width: 55%;
+    margin-top: 16%;
+    opacity: 0;
+}
+.slideg .arrow_left2{
+    width: 13%;
+    position: absolute;
+    left: 14.5%;
+    top: 5%;
+    opacity: 0;
+}
+.slideg .arrow_right2{
+    width: 13%;
+    position: absolute;
+    right: 15%;
+    top: 14.5%;
+    opacity: 0;
+}
+.slideg .interview_div{
+    position: relative;
+    width: 74%;
+    margin: 12% auto;
+}
+.slideg .interview_div input{
+    border: 1px solid #B4FFFF;
+    display: block;
+    background: inherit;
+    width: 100%;
+    height: 1rem;
+    margin-bottom: 0.4rem;
+    border-radius: 8px;
+    font-size: 0.36rem;
+    padding: 0 0.14rem;
+    color: rgba(255,255,255,0.8);
+    box-sizing: border-box;
+    opacity: 0;
+}
+.slideg input[type="button"]{
+    background-color: #192E71;
+    opacity: 0;
+}
+::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.8);
+}
+.slideg .line{
+	position: absolute;
+	width: 2%;
+	left: -4%;
+	opacity: 0;
+}
+.slideg .title3{
+	width: 37%;
+    position: absolute;
+    top: 11%;
+    left: 30.7%;
+    opacity: 0;
+}
+.slide-active .title_border{
+	-webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -o-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-animation: scaleY 1s 3.4s both;
+    -moz-animation: scaleY 1s 3.4s both;
+    -o-animation: scaleY 1s 3.4s both;
+    animation: scaleY 1s 3.4s both;
+}
+.slide-active .title3{
+	-webkit-animation: rotateInDownLeft 1s 3.8s both;
+	animation: rotateInDownLeft 1s 3.8s both;
+}
+.slide-active .input1{
+	-webkit-animation: scaleX 1s 4.4s both;
+	animation: scaleX 1s 4.4s both;
+}
+.slide-active .first_line{
+	-webkit-animation: bounceInLeft 1s 4.4s both;
+	animation: bounceInLeft 1s 4.4s both;
+}
+.slide-active .input2{
+	-webkit-animation: scaleX 1s 4.8s both;
+	animation: scaleX 1s 4.8s both;
+}
+.slide-active .second_line{
+	-webkit-animation: bounceInLeft 1s 4.8s both;
+	animation: bounceInLeft 1s 4.8s both;
+}
+.slide-active .input3{
+	-webkit-animation: scaleX 1s 5.2s both;
+	animation: scaleX 1s 5.2s both;
+}
+.slide-active .third_line{
+	-webkit-animation: bounceInLeft 1s 5.2s both;
+	animation: bounceInLeft 1s 5.2s both;
+}
+.slide-active .input4{
+	-webkit-animation: scaleX 1s 5.6s both;
+	animation: scaleX 1s 5.6s both;
+}
+.slide-active .fourth_line{
+	-webkit-animation: bounceInLeft 1s 5.6s both;
+	animation: bounceInLeft 1s 5.6s both;
+}
+.slide-active .button{
+	-webkit-animation: button 1s 6s both;
+	animation: button 1s 6s both;
+}

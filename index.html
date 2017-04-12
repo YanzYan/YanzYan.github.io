@@ -1,10 +1,263 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>颜哲的个人主页</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <!-- 全屏显示 -->
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- 屏蔽百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <meta name="applicable-device" content="mobile" />
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/WapRoot.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/style2.js"></script>
+    <title>招聘</title>
 </head>
+<script>
+    //平台、设备和操作系统
+    var system = {
+        win: false,
+        mac: false,
+        xll: false
+    };
+    //检测平台
+    var p = navigator.platform;
+    system.win = p.indexOf("Win") == 0;
+    system.mac = p.indexOf("Mac") == 0;
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+    //跳转语句
+    if (system.win || system.mac || system.xll) {//转向后台登陆页面
+//		 window.location.href="http://www.i2finance.net";
+    };
+</script>
 <body>
-	<p>This is my web ---YZ</p>
+<section id="conn">
+    <section class="main">
+        <aside class="slide slidea">
+            <!--背景-->
+            <img src="img/01-15.png" class="bg_circles1"/>
+            <img src="img/01-16.png" class="bg_circles2"/>
+            <img src="img/01-17.png" class="rain"/>
+
+            <div class="wrap_div">
+                <img src="img/01-1.png" class="wrap_circle1"/>
+                <img src="img/01-1.png" class="wrap_circle2"/>
+                <img src="img/01-1.png" class="wrap_circle3"/>
+                <img src="img/01-13.png" class="rotate1"/>
+                <img src="img/01-13.png" class="rotate2"/>
+                <img src="img/01-13.png" class="rotate3"/>
+            </div>
+            <img class="big_circle1" src="img/01-2.png" />
+            <img class="big_circle2" src="img/01-2.png" />
+            <img class="recruit" src="img/01-font.png" />
+            <!--logo-->
+            <img class="border" src="img/01-3.png"/>
+            <img class="logo" src="img/01-4.png"/>
+            <img class="logo_font" src="img/01-5.png"/>
+
+            <!--we need you for a div -- 复用-->
+            <div class="div_need">
+                <img class="bg" src="img/01-8.png" />
+                <img class="line1" src="img/01-18.png" />
+                <img class="line2" src="img/01-18.png" />
+                <img class="point" src="img/01-19.png" />
+                <img class="need" src="img/01-11.png" />
+            </div>
+
+            <img class="arrow" src="img/go.png">
+        </aside>
+
+        <aside class="slide slideb">
+            <!--背景-->
+            <img src="img/01-15.png" class="bg_circles1"/>
+            <img src="img/01-16.png" class="bg_circles2"/>
+            <img src="img/02-8.png" class="bg_circle3"/>
+            <img src="img/02-9.png" class="bg_circle4"/>
+            <img src="img/01-17.png" class="rain"/>
+
+            <img src="img/02-2.png" class="company_border company_border1"/>
+            <img src="img/02-2.png" class="company_border company_border2"/>
+            <img src="img/02-4.png" class="company_font"/>
+            <img src="img/02-1.png" class="arrow_left1" />
+            <img src="img/02-3.png" class="arrow_right1" />
+
+            <img src="img/02-5.png" class="pack_left" />
+            <img src="img/02-6.png" class="content" />
+            <img src="img/02-7.png" class="pack_right" />
+            <!--we need you-->
+            <div class="div_need">
+                <img class="bg" src="img/01-8.png" />
+                <img class="line1" src="img/01-18.png" />
+                <img class="line2" src="img/01-18.png" />
+                <img class="point" src="img/01-19.png" />
+                <img class="need" src="img/01-11.png" />
+            </div>
+            <img class="arrow" src="img/go.png">
+        </aside>
+        <aside class="slide slidec">
+            <!--背景-->
+            <img src="img/01-15.png" class="bg_circles1"/>
+            <img src="img/01-16.png" class="bg_circles2"/>
+            <img src="img/02-8.png" class="bg_circle3"/>
+            <img src="img/02-9.png" class="bg_circle4"/>
+            <img src="img/01-17.png" class="rain"/>
+
+            <img src="img/03-1.png" class="bg_circle1"/>
+            <img src="img/03-2.png" class="bg_circle2"/>
+            <img src="img/03-3.png" class="title2"/>
+            <img src="img/03-4.png" class="content_desc"/>
+
+            <img src="img/03-5.png" class="bank banka bank1"/>
+            <img src="img/03-6.png" class="bank bankb bank2"/>
+            <img src="img/03-7.png" class="bank banka bank3"/>
+            <img src="img/03-8.png" class="bank bankb bank4"/>
+            <img src="img/03-9.png" class="bank banka bank5"/>
+            <img src="img/03-10.png" class="bank bankb bank6"/>
+            <img src="img/03-11.png" class="bank banka bank7"/>
+            <img src="img/03-12.png" class="bank bankb bank8"/>
+            <img src="img/03-13.png" class="bank banka bank9"/>
+            <img src="img/03-14.png" class="bank bankb bank10"/>
+            <img src="img/03-15.png" class="bank banka bank11"/>
+            <img src="img/03-16.png" class="bank bankb bank12"/>
+
+            <div class="div_need">
+                <img class="bg" src="img/01-8.png" />
+                <img class="line1" src="img/01-18.png" />
+                <img class="line2" src="img/01-18.png" />
+                <img class="point" src="img/01-19.png" />
+                <img class="need" src="img/01-11.png" />
+            </div>
+            <img class="arrow" src="img/go.png">
+        </aside>
+        <aside class="slide slided">
+            <!--背景-->
+            <img src="img/01-15.png" class="bg_circles1"/>
+            <img src="img/01-16.png" class="bg_circles2"/>
+            <img src="img/02-8.png" class="bg_circle3"/>
+            <img src="img/02-9.png" class="bg_circle4"/>
+            <img src="img/01-17.png" class="rain"/>
+
+            <img src="img/04-1.png" class="title"/>
+            <img src="img/04-2.png" class="arrow_left2" />
+            <img src="img/04-3.png" class="arrow_right2" />
+            <img src="img/04-5.png" class="border_content" />
+
+            <img src="img/04-6.png" class="content1" />
+            <img src="img/04-7.png" class="content2" />
+            <img src="img/04-8.png" class="content3" />
+            <img src="img/04-9.png" class="content4" />
+            <img src="img/04-10.png" class="content5" />
+            <div class="div_need">
+                <img class="bg" src="img/01-8.png" />
+                <img class="line1" src="img/01-18.png" />
+                <img class="line2" src="img/01-18.png" />
+                <img class="point" src="img/01-19.png" />
+                <img class="need" src="img/01-11.png" />
+            </div>
+            <img class="arrow" src="img/go.png">
+        </aside>
+        <aside class="slide slidee">
+            <img src="img/01-17.png" class="rain1"/>
+            <img src="img/05-1.png" class="tree"/>
+            <img src="img/05-2.png" class="tree_position tree_position1 "/>
+            <img src="img/05-3.png" class="tree_position tree_position2"/>
+            <img src="img/05-4.png" class="tree_position tree_position3"/>
+            <img src="img/05-5.png" class="tree_position tree_position4"/>
+            <img src="img/05-6.png" class="tree_position tree_position5"/>
+            <img src="img/05-7.png" class="tree_position tree_position6"/>
+            <img src="img/05-8.png" class="tree_position tree_position7"/>
+            <img src="img/05-14.png" class="tree_position tree_position8"/>
+            <img src="img/05-9.png" class="tree_center_circle"/>
+            <img src="img/05-10.png" class="font_we"/>
+            <img src="img/05-11.png" class="font_need"/>
+            <img src="img/05-12.png" class="we_circle"/>
+            <img src="img/05-13.png" class="need_circle"/>
+            <div class="div_need">
+                <img class="bg" src="img/01-8.png" />
+                <img class="line1" src="img/01-18.png" />
+                <img class="line2" src="img/01-18.png" />
+                <img class="point" src="img/01-19.png" />
+                <img class="need" src="img/01-11.png" />
+            </div>
+
+            <img class="arrow" src="img/go.png">
+        </aside>
+        <aside class="slide slidef">
+            <img src="img/06-1.png" class="bg_circle4"/>
+            <img src="img/01-17.png" class="rain"/>
+            <img src="img/06-2.png" class="title_left_circle"/>
+            <img src="img/06-3.png" class="title_right_circle"/>
+            <img src="img/06-4.png" class="title_bg1"/>
+            <img src="img/06-5.png" class="title_bg2"/>
+            <img src="img/06-6.png" class="title1"/>
+            <img src="img/06-7.png" class="duty_content"/>
+            <img src="img/06-8.png" class="duty_title_circle1"/>
+            <img src="img/06-9.png" class="duty_title"/>
+            <img src="img/06-8.png" class="duty_title_circle2"/>
+            <img src="img/06-8.png" class="require_title_circle1"/>
+            <img src="img/06-10.png" class="require_title"/>
+            <img src="img/06-8.png" class="require_title_circle2"/>
+            <img src="img/06-11.png" class="require_content"/>
+
+            <div class="div_need">
+                <img class="bg" src="img/01-8.png" />
+                <img class="line1" src="img/01-18.png" />
+                <img class="line2" src="img/01-18.png" />
+                <img class="point" src="img/01-19.png" />
+                <img class="need" src="img/01-11.png" />
+            </div>
+            <img class="arrow" src="img/go.png">
+        </aside>
+        <aside class="slide slideg">
+            <!--背景-->
+            <img src="img/01-15.png" class="bg_circles1"/>
+            <img src="img/01-16.png" class="bg_circles2"/>
+            <img src="img/02-8.png" class="bg_circle3"/>
+            <img src="img/02-9.png" class="bg_circle4"/>
+            <img src="img/01-17.png" class="rain"/>
+
+            <img src="img/07-1.png" class="title_border" />
+            <img src="img/07-5.png" class="title3"/>
+            <img src="img/07-2.png" class="arrow_left2" />
+            <img src="img/07-3.png" class="arrow_right2" />
+
+            <div class="interview_div">
+                <img src="img/07-4.png" class="line first_line"/>
+                <input type="text" placeholder="姓名" class="input1">
+                <img src="img/07-4.png" class="line second_line"/>
+                <input type="text" placeholder="性别/年龄" class="input2">
+                <img src="img/07-4.png" class="line third_line"/>
+                <input type="tel" placeholder="联系电话" class="input3">
+                <img src="img/07-4.png" class="line fourth_line"/>
+                <input type="text" placeholder="应聘职位" class="input4">
+                <a href="test.html"><input type="button" value="提交信息" class="button"></a>
+            </div>
+
+            <div class="div_need">
+                <img class="bg" src="img/01-8.png" />
+                <img class="line1" src="img/01-18.png" />
+                <img class="line2" src="img/01-18.png" />
+                <img class="point" src="img/01-19.png" />
+                <img class="need" src="img/01-11.png" />
+            </div>
+            <img class="arrow" src="img/go.png">
+        </aside>
+    </section>
+</section>
 </body>
 </html>
