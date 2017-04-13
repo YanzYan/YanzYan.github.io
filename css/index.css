@@ -957,10 +957,10 @@ img{display: block;margin: 0 auto;}
     animation: rollIn 1.4s 4.4s both;
 }
 .slide-active .duty_content{
-    -webkit-animation: zoomInLeft 1s 5.2s both;
-    -moz-animation: zoomInLeft 1s 5.2s both;
-    -o-animation: zoomInLeft 1s 5.2s both;
-    animation: zoomInLeft 1s 5.2s both;
+    -webkit-animation: zoomInRight 1s 5.2s both;
+    -moz-animation: zoomInRight 1s 5.2s both;
+    -o-animation: zoomInRight 1s 5.2s both;
+    animation: zoomInRight 1s 5.2s both;
 }
 .slide-active .duty_title_circle1,.slide-active .duty_title_circle2{
     -webkit-animation: fadeInRight .5s 6.2s both;
