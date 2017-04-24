@@ -1,9 +1,3 @@
-﻿<?php
-header('Content-type: application/json','Access-Control-Allow-Origin:*');
-//获取回调函数名
-$jsoncallback = htmlspecialchars($_REQUEST ['jsoncallback']);
-//json数据
-$json_data = '["customername1","customername2"]';
-//输出jsonp格式的数据
-echo $jsoncallback . "(" . $json_data . ")";
-?>
+﻿callback({
+	{ "sites": [ { "Name": "菜鸟教程", "Url": "www.runoob.com", "Country": "CN" }, { "Name": "Google", "Url": "www.google.com", "Country": "USA" }, { "Name": "Facebook", "Url": "www.facebook.com", "Country": "USA" }, { "Name": "微博", "Url": "www.weibo.com", "Country": "CN" } ] }
+})
