@@ -1,2 +1,2 @@
-header('Access-Control-Allow-Origin:*');
-{ "sites": [ { "Name": "≤ÀƒÒΩÃ≥Ã", "Url": "www.runoob.com", "Country": "CN" }, { "Name": "Google", "Url": "www.google.com", "Country": "USA" }, { "Name": "Facebook", "Url": "www.facebook.com", "Country": "USA" }, { "Name": "Œ¢≤©", "Url": "www.weibo.com", "Country": "CN" } ] }
+Ôªøheader('Access-Control-Allow-Origin:*');
+{ "sites": [ { "Name": "ËèúÈ∏üÊïôÁ®ã", "Url": "www.runoob.com", "Country": "CN" }, { "Name": "Google", "Url": "www.google.com", "Country": "USA" }, { "Name": "Facebook", "Url": "www.facebook.com", "Country": "USA" }, { "Name": "ÂæÆÂçö", "Url": "www.weibo.com", "Country": "CN" } ] }
