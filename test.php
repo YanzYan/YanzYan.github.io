@@ -1,0 +1,2 @@
+header('Access-Control-Allow-Origin:*');
+{ "sites": [ { "Name": "²ËÄñ½Ì³Ì", "Url": "www.runoob.com", "Country": "CN" }, { "Name": "Google", "Url": "www.google.com", "Country": "USA" }, { "Name": "Facebook", "Url": "www.facebook.com", "Country": "USA" }, { "Name": "Î¢²©", "Url": "www.weibo.com", "Country": "CN" } ] }
